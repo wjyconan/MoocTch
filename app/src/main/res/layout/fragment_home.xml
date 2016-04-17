@@ -1,0 +1,84 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.com.gridinfo.gridinfo_tch.fragment.HomeFragment">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_20"
+                android:layout_marginTop="@dimen/space_20"
+                android:orientation="horizontal"
+                app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+
+                <TextView
+                    android:id="@id/txtHomework"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/tch_icon_homework"
+                    android:gravity="center"
+                    android:text="@string/home_homework"
+                    android:textColor="@color/black_text_color_87"
+                    android:textSize="@dimen/text_size_body" />
+
+                <TextView
+                    android:id="@id/txtCourse"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/tch_icon_course"
+                    android:gravity="center"
+                    android:text="@string/home_course"
+                    android:textColor="@color/black_text_color_87"
+                    android:textSize="@dimen/text_size_body" />
+
+                <TextView
+                    android:id="@id/txtClass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/tch_icon_classroom"
+                    android:gravity="center"
+                    android:text="@string/home_class"
+                    android:textColor="@color/black_text_color_87"
+                    android:textSize="@dimen/text_size_body" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_48"
+                android:background="@color/light_gray"
+                app:layout_scrollFlags="enterAlwaysCollapsed">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_12"
+                    android:layout_marginStart="@dimen/space_12"
+                    android:text="@string/home_i_edu"
+                    android:textColor="@color/primary_color"
+                    android:textSize="@dimen/text_size_body" />
+
+            </RelativeLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@id/recycleHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</android.support.design.widget.CoordinatorLayout>

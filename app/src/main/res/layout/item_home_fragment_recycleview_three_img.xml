@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="153dp"
+    android:layout_marginLeft="@dimen/space_12"
+    android:layout_marginRight="@dimen/space_12"
+    android:gravity="end"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/space_20"
+        android:layout_marginRight="@dimen/space_20"
+        android:layout_marginTop="@dimen/space_12"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/black_text_color_87"
+        android:textSize="@dimen/text_size_body" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="@dimen/space_10"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@id/imgItemFirst"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@mipmap/tch_image_loading"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@id/imgItemSecond"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="@dimen/space_2"
+            android:layout_marginRight="@dimen/space_2"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@mipmap/tch_image_loading"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@id/imgItemThird"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@mipmap/tch_image_loading"
+            fresco:placeholderImageScaleType="centerCrop" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@id/txtSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/space_20"
+        android:layout_marginRight="@dimen/space_20"
+        android:drawableLeft="@mipmap/tch_icon_hot"
+        android:drawablePadding="@dimen/space_8"
+        android:drawableStart="@mipmap/tch_icon_hot"
+        android:ellipsize="end"
+        android:gravity="bottom"
+        android:paddingBottom="@dimen/space_10"
+        android:singleLine="true"
+        android:textColor="@color/black_text_color_54"
+        android:textSize="@dimen/text_size_caption" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_bg_color" />
+</RelativeLayout>

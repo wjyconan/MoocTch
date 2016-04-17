@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4bc7c7</color>
+    <color name="colorPrimaryDark">#4bc7c7</color>
+    <color name="colorAccent">#4bc7c7</color>
+
+    <!--主色和辅色-->
+    <color name="primary_color">#4bc7c7</color>
+    <color name="accent">#4bc7c7</color>
+
+    <!--白色字体-->
+    <color name="white_text_color">#ffffff</color>
+
+    <!-- 样式统一 -->
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <!-- 布局背景色 -->
+    <color name="background_gray">#eeeeee</color>
+    <!-- 分割线 -->
+    <color name="divider_bg_color">#1e000000</color>
+
+    <!--黑色文字的不同透明度-->
+    <!--透明度：87%-->
+    <color name="black_text_color_87">#de000000</color>
+    <!--透明度：54%-->
+    <color name="black_text_color_54">#8a000000</color>
+    <!--透明度：38%-->
+    <color name="black_text_color_38">#61000000</color>
+
+    <!-- 底部导航背景色 、今日/预习 素材详情底部导航-->
+    <color name="bottom_button_bg_color">#f9f9f9</color>
+
+    <color name="light_gray">#fff5f5f5</color>
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!--toolbar title-->
+    <style name="actionbar_title" parent="android:Widget.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--单行列表可点击样式-->
+    <style name="my_list_item_can_click_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_one_line_height</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!--单行列表右边图标样式样式-->
+    <style name="my_list_item_icon_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_margin">@dimen/margin_with_pic</item>
+    </style>
+
+    <style name="black_font_87_15_base">
+        <item name="android:textColor">@color/black_text_color_87</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+    <!--单行列表字体样式-->
+    <style name="my_list_item_font_base_style" parent="black_font_87_15_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--单行列表主字体样式-->
+    <style name="my_list_item_primary_font_style" parent="my_list_item_font_base_style">
+        <item name="android:textColor">@color/black_text_color_87</item>
+    </style>
+    <!--单行列表辅字体样式-->
+    <style name="my_list_item_secondary_font_style" parent="my_list_item_font_base_style">
+        <item name="android:textColor">@color/black_text_color_54</item>
+    </style>
+    <!--单行列表向左箭头样式-->
+    <style name="my_list_item_left_tag_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/margin_no_pic</item>
+    </style>
+</resources>

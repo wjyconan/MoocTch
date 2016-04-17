@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="parent" type="id">parent</item>
+    <item name="toolbar" type="id">toolbar</item>
+    <item name="flayout" type="id">flayout</item>
+    <item name="llayout" type="id">llayout</item>
+    <item name="llayoutGuide" type="id">llayout_guide</item>
+
+    <item name="txtSkip" type="id">txt_skip</item>
+    <item name="txtForgetPsw" type="id">txt_forget_password</item>
+    <item name="txtQQLogin" type="id">txt_qq_login</item>
+    <item name="txtWeChatLogin" type="id">txt_wechat_login</item>
+    <item name="txtSinaLogin" type="id">txt_sina_login</item>
+    <item name="txtHome" type="id">txt_home</item>
+    <item name="txtSns" type="id">txt_sns</item>
+    <item name="txtIEdu" type="id">txt_i_edu</item>
+    <item name="txtMy" type="id">txt_my</item>
+    <item name="txtHomework" type="id">txt_homework</item>
+    <item name="txtCourse" type="id">txt_course</item>
+    <item name="txtClass" type="id">txt_class</item>
+    <item name="txtTitle" type="id">txt_title</item>
+    <item name="txtSubject" type="id">txt_subject</item>
+
+    <item name="editAccount" type="id">edit_account</item>
+    <item name="editPsw" type="id">edit_psw</item>
+    <item name="editPhoneNumber" type="id">edit_phone_number</item>
+    <item name="editInputCode" type="id">edit_input_code</item>
+    <item name="editRealname" type="id">edit_realname</item>
+
+    <item name="btnGoToLogin" type="id">btn_go_to_login</item>
+    <item name="btnGoToRegister" type="id">btn_go_to_register</item>
+    <item name="btnLogin" type="id">btn_login</item>
+    <item name="btnReg" type="id">btn_register</item>
+    <item name="btnCommit" type="id">btn_commit</item>
+    <item name="btnSendCode" type="id">btn_send_code</item>
+
+    <item name="imgGuidePic" type="id">img_guide_pic</item>
+    <item name="imgIndicator0" type="id">img_indicator_0</item>
+    <item name="imgIndicator1" type="id">img_indicator_1</item>
+    <item name="imgIndicator2" type="id">img_indicator_2</item>
+    <item name="imgIndicator3" type="id">img_indicator_3</item>
+    <item name="imgItemFirst" type="id">img_item_first</item>
+    <item name="imgItemSecond" type="id">img_item_second</item>
+    <item name="imgItemThird" type="id">img_item_third</item>
+
+    <item name="recycleHome" type="id">recycle_home_fragment</item>
+
+    <item name="scShowPsw" type="id">sc_show_psw</item>
+
+    <item name="vpGuide" type="id">vp_guide</item>
+
+    <item name="appbar" type="id">appbar_layout</item>
+
+    <item name="sflayout" type="id">sflayout</item>
+
+
+
+</resources>

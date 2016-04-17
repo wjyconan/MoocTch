@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.com.gridinfo.gridinfo_tch.fragment.MyFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_40">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/tch_my_bg">
+            <!--用户背景-->
+
+            <ImageView
+                android:id="@+id/iv_head_img"
+                android:layout_width="104dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="center"
+                android:background="@drawable/tch_circle_bg_img"
+                android:src="@mipmap/tch_default_img" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:gravity="center"
+                android:text="登录/注册"
+                android:textColor="@color/white_text_color"
+                android:textSize="@dimen/text_size_subheading" />
+
+
+        </FrameLayout>
+
+
+        <!--设置-->
+        <RelativeLayout
+            android:id="@+id/rl_setting"
+            style="@style/my_list_item_can_click_style">
+
+            <ImageView
+                android:id="@+id/iv_notice"
+                android:contentDescription="@string/app_name"
+                style="@style/my_list_item_icon_style"
+                android:src="@mipmap/tch_icon_notice"/>
+
+            <TextView
+                android:id="@+id/tv_notice"
+                style="@style/my_list_item_primary_font_style"
+                android:layout_toRightOf="@id/iv_notice"
+                android:text="@string/my_setting"/>
+
+            <ImageView
+                style="@style/my_list_item_left_tag_style"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_no_pic"
+                android:src="@mipmap/tch_ic_next_tag"/>
+
+            <!--分割线-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/divider_bg_color" />
+
+        </RelativeLayout>
+
+        <!--&lt;!&ndash;通讯录&ndash;&gt;style="@style/my_list_item_icon_style"-->
+
+        <RelativeLayout
+            android:id="@+id/rl_phonebook"
+            style="@style/my_list_item_can_click_style">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/divider_bg_color" />
+        </RelativeLayout>
+
+        <!--综合评价-->
+        <RelativeLayout
+            android:id="@+id/rl_assessment"
+            style="@style/my_list_item_can_click_style"
+            android:visibility="gone">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/divider_bg_color" />
+        </RelativeLayout>
+
+        <!--常见问题-->
+        <RelativeLayout
+            android:id="@+id/rl_question"
+            style="@style/my_list_item_can_click_style">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/divider_bg_color"
+                />
+        </RelativeLayout>
+
+
+        <!--联系我们-->
+        <RelativeLayout
+            android:id="@+id/call_us"
+            style="@style/my_list_item_can_click_style">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/divider_bg_color"
+                />
+
+        </RelativeLayout>
+
+
+        <!--关于12xue-->
+        <RelativeLayout
+            android:id="@+id/rl_about"
+            style="@style/my_list_item_can_click_style">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/divider_bg_color"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
