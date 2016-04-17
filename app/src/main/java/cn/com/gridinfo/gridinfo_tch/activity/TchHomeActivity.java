@@ -103,7 +103,6 @@ public class TchHomeActivity extends BaseActivity implements HomeFragment.OnFrag
                 drIEdu.setBounds(0, 0, drIEdu.getMinimumWidth(), drIEdu.getMinimumHeight());
                 txtIEdu.setTextColor(getResources().getColor(R.color.primary_color));
                 txtIEdu.setCompoundDrawables(null, drIEdu, null, null);
-
                 break;
             case 4:
                 drMy = getResources().getDrawable(R.mipmap.tch_my_press);
