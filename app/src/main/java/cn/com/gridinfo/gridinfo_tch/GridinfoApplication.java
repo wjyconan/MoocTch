@@ -13,6 +13,5 @@ public class GridinfoApplication extends Application{
     public void onCreate() {
         super.onCreate();
         Fresco.initialize(this);
-
     }
 }
